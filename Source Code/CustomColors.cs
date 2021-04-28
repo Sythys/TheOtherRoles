@@ -71,8 +71,7 @@ namespace TheOtherRoles {
                                         shadow = new Color32(0, 61, 54, byte.MaxValue),
                                         isLighterColor = false });
 
-            pickableColors += colors.Count; // Colors to show in Tab
-            /** Hidden Colors **/
+            
             colors.Add(new CustomColor { longname = "Panda", shortname = "PANDA", 
                                         color = new Color32(255, 255, 255, 0), 
                                         shadow = new Color32(12, 12, 12, 0),
@@ -81,6 +80,9 @@ namespace TheOtherRoles {
                                         color = new Color32(64, 8, 71, 0), 
                                         shadow = new Color32(24, 32, 116, 0),
                                         isLighterColor = false });
+            pickableColors += colors.Count; // Colors to show in Tab
+            /** Hidden Colors **/
+            
             /** Add Colors **/
             int id = 50000;
             foreach (CustomColor cc in colors) {
