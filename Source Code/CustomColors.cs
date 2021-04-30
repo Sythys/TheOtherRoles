@@ -69,9 +69,7 @@ namespace TheOtherRoles {
             colors.Add(new CustomColor { longname = "Petrol", shortname = "PTRL", 
                                         color = new Color32(0, 99, 105, byte.MaxValue), 
                                         shadow = new Color32(0, 61, 54, byte.MaxValue),
-                                        isLighterColor = false });
-
-            
+                                        isLighterColor = false });            
             colors.Add(new CustomColor { longname = "Panda", shortname = "PANDA", 
                                         color = new Color32(255, 255, 255, 0), 
                                         shadow = new Color32(12, 12, 12, 0),
